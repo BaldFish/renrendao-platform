@@ -25,7 +25,7 @@
           <div class="download_wrap">
             <ul class="download_list">
               <li>
-                <p>下载到电脑</p>
+                <p @click="downLoad">下载到电脑</p>
               </li>
               <li>
                 <p>iPhone版app下载</p>
@@ -98,7 +98,12 @@
     },
     watch: {},
     computed: {},
-    methods: {},
+    methods: {
+      downLoad(){
+        var tempWindow=window.open('_blank');
+        tempWindow.location="http://p5mgatf9g.bkt.clouddn.com/Launch_Wallet_Release_CN.apk"
+      }
+    },
   }
 </script>
 
@@ -116,7 +121,7 @@
         font-size 0
         padding-left 140px
         .presentation {
-          float right
+          float left
           margin-top 50px
           .tittle_wrap {
             font-size 0
@@ -219,6 +224,7 @@
                   color: #ffffff;
                   border-radius: 18px;
                   padding 0px 15px
+                  cursor pointer
                 }
               }
               li:last-child {
@@ -228,7 +234,7 @@
           }
         }
         .img {
-          float left
+          float right
           margin-top 60px
         }
       }
@@ -238,23 +244,27 @@
         .presentation {
           margin-top 100px
           width 700px
+          float right
           .download_wrap {
             display none
           }
+        }
+        .img {
+          float left
         }
       }
       
     }
     .versions_wrap_odd{
       background-color #f9f9f9
-      .versions {
+      /*.versions {
         .presentation {
           float left
         }
         .img {
           float right
         }
-      }
+      }*/
     }
   }
 </style>
