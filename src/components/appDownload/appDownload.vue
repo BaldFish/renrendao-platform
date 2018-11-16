@@ -36,7 +36,7 @@
                 <img src="./images/android.png" alt=""></li>
               <li>
                 <p>Pad版app下载</p>
-                <img src="./images/expectation.png" alt="">
+                <img src="./images/android.png" alt="">
               </li>
             </ul>
           </div>
