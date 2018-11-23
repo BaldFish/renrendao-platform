@@ -113,8 +113,8 @@
         this.centerDialogVisible = false
       },
       submitAdvise() {
-        if (this.content === "") {
-          this.tipName = "反馈内容";
+        if (this.name === "") {
+          this.tipName = "姓名";
           this.openTip();
           return
         }
@@ -123,14 +123,14 @@
           this.openTip();
           return
         }
-        if (this.name === "") {
-          this.tipName = "姓名";
+        if (this.content === "") {
+          this.tipName = "反馈内容";
           this.openTip();
           return
         }
         let data = {
           name: this.name,
-          phone: this.phone,
+          phone: "+86"+this.phone,
           email:this.email,
           content: this.content,
           platform: 1,
