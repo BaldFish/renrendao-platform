@@ -9,11 +9,11 @@
       <div class="code">
         <div class="android">
           <img src="./images/Android.png" alt="">
-          <p>Android钱包二维码</p>
+          <p>Android版人人道</p>
         </div>
         <div class="gongzhonghao">
           <img src="./images/gongzhonghao.png" alt="">
-          <p>公众号</p>
+          <p>人人道公众号</p>
         </div>
       </div>
       <div class="tabs_nav">
