@@ -66,6 +66,10 @@
             <router-link to="/aboutUs">关于我们</router-link>
           </li>
           <li @click="advise">意见和建议</li>
+          <li>
+            <img class="ft_code" src="./common/images/weixin.png" alt="weixin">
+            <p>咨询客服微信号</p>
+          </li>
         </ul>
         <ul class="fr_ul">
           <li>工作时间: 9:30～18:30</li>
@@ -237,11 +241,11 @@
       background-color: #222426;
       box-sizing: border-box
       width 1200px
-      height 130px
+      height 160px
       margin 0 auto
       font-size 0
       text-align center
-      padding-top 29px
+      padding-top 20px
       ul {
         font-family: PingFangSC-Regular;
         display inline-block
@@ -254,11 +258,12 @@
       }
       .fl_ul {
         font-size 0
-        margin-right 92px
+        margin-right 80px
         li {
           font-size 14px
           display inline-block
-          margin-right 110px
+          margin-right 80px
+          vertical-align middle
           a {
             color #ffffff
           }
