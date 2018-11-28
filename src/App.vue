@@ -11,10 +11,11 @@
           <li class="nav">
             <span></span>
             <router-link to="/appDownload">APP下载</router-link>
-          <li class="nav">
+          </li>
+          <!--<li class="nav">
             <span></span>
             <router-link to="/aboutUs">关于我们</router-link>
-          </li>
+          </li>-->
         </ul>
       </div>
     </div>
@@ -62,9 +63,9 @@
           <li>
             <router-link to="/appDownload">APP下载</router-link>
           </li>
-          <li>
+          <!--<li>
             <router-link to="/aboutUs">关于我们</router-link>
-          </li>
+          </li>-->
           <li @click="advise">意见和建议</li>
           <li>
             <img class="ft_code" src="./common/images/weixin.png" alt="weixin">
@@ -74,7 +75,7 @@
         <ul class="fr_ul">
           <li>工作时间: 9:30～18:30</li>
           <li>服务电话：010-58205388</li>
-          <li>联系地址：北京市朝阳区建国路93号万达广场8号楼808</li>
+          <!--<li>联系地址：北京市朝阳区建国路93号万达广场8号楼808</li>-->
         </ul>
       </div>
     </div>
@@ -268,7 +269,7 @@
             color #ffffff
           }
         }
-        li:nth-child(4){
+        li:nth-child(3){
           cursor pointer
           border 1px solid #ffffff
           padding 4px
