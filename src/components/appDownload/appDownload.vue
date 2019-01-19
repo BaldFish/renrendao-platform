@@ -57,6 +57,14 @@
       return {
         info: [
           {
+            tittle: "人人道钱包 V1.1.4",
+            logo: require('./images/logo.png'),
+            update: "2019年01月17日",
+            intro: ["人人道——可以赚钱的区块链钱包。", "全球首款集结积分、资产、身份为一体的基于区块链技术的新型移动端应用。", "在这里，您将走进一个前所未有的新世界。",],
+            content: ["1、【重磅】新增邮箱登录、多语言、广告豆提现、积分商城；", "2、【优化】各种代币的交易流水", "3、【修复】修复bug，提升用户体验"],
+            img: require('./images/1.1.4.png')
+          },
+          {
             tittle: "人人道钱包 V1.0.3",
             logo: require('./images/logo.png'),
             update: "2018年11月12日",
