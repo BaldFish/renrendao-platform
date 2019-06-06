@@ -75,7 +75,9 @@
         <ul class="fr_ul">
           <li>工作时间: 9:30～18:30</li>
           <li>服务电话：010-58205388</li>
-          <!--<li>联系地址：北京市朝阳区建国路93号万达广场8号楼808</li>-->
+          <li>
+            <a href="http://www.beian.miit.gov.cn/">备案号 粤ICP备19004762号-2</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -280,6 +282,12 @@
       }
       .fr_ul {
         text-align left
+        li{
+          a{
+            color #ffffff
+          }
+        }
+        
       }
     }
   }
